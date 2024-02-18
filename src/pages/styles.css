@@ -1,0 +1,25 @@
+.add-member::before {
+  content: "";
+  background: url('./../images/bg2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(5px); /* Adjust the blur radius as needed */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.add-member {
+  position: relative; /* Make this container relative to the body */
+  z-index: 1; /* Ensure content is above the background */
+  padding: 20px; /* Add some padding to prevent content from sticking to the edges */
+}
+
+
+
+
+
+
+
